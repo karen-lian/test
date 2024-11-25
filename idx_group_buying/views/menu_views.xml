@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_group_buying_root" name="團購" sequence="1"/>
+        <menuitem id="menu_group_buying" name="團購表單" parent="menu_group_buying_root" sequence="2"
+                  action="action_group_buying"/>
+    </data>
+</odoo>
+

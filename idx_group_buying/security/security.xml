@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data noupdate="0">
+        <record id="module_group_buying" model="ir.module.category">
+            <field name="name">團購</field>
+        </record>
+
+        <record id="group_buying_user" model="res.groups">
+            <field name="name">使用者</field>
+            <field name="category_id" ref="module_group_buying"/>
+        </record>
+
+    </data>
+</odoo>
+
